@@ -12,22 +12,24 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+
   /* align-items: center;
   justify-content: center; */
 }
 
 .logo {
-  color: #ffffff;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
   height: 24px;
+
   /* margin: 24px; */
 }
 
@@ -52,7 +54,7 @@ body {
 
 .primary-text {
   /* background-color: #1c1a19; */
-  display: flex; 
+  display: flex;
   flex-direction: column;
   padding-top: 150px;
   padding-bottom: 100px;
@@ -60,7 +62,7 @@ body {
 
 .primary-text h1 {
   color: #ff6b00;
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -73,7 +75,7 @@ body {
   /* width: 327px;
       height: 27px; */
   color: #fff5e1;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -82,8 +84,8 @@ body {
 }
 
 .primary-text p {
-  color: #ffffff;
-  font-family: "Poppins";
+  color: #fff;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -94,9 +96,10 @@ body {
 .social-media-icon ul {
   display: flex;
   align-items: center;
+
   /* justify-content: space-around; */
   list-style-type: none;
-  padding: 0px;
+  padding: 0;
   margin: 24px;
 }
 
